@@ -3,8 +3,20 @@ body {
     background: #A770EF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Rampart One', monospace;
+    color: purple;
 
 }
+
+/* body {
+  text-align: center;
+  background: rgb(153,232,205);
+  background: -moz-linear-gradient(135deg, rgba(153,232,205,1) 9%, rgba(60,218,70,1) 62%, rgba(25,45,82,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(153,232,205,1) 9%, rgba(60,218,70,1) 62%, rgba(25,45,82,1) 100%);
+  background: linear-gradient(135deg, rgba(153,232,205,1) 9%, rgba(60,218,70,1) 62%, rgba(25,45,82,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#99e8cd",endColorstr="#192d52",GradientType=1);
+} */
+/* Different colored background for possible seasonal events??? */
 
 .snow {
     position: relative;
@@ -65,5 +77,22 @@ body {
   p {
     text-align: center;
     color: purple;
-    font-family: cursive;
+    /* font-family: cursive; */
+  }
+
+  .contactz {
+    text-align: center;
+    color: purple;
+    /* font-family: cursive; */
+  }
+
+  #instagram,
+  #atom {
+    size: 100px;
+  }
+
+  #instagram:hover,
+  #atom:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
   }
