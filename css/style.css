@@ -4,7 +4,7 @@ body {
     background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Rampart One', monospace;
-    color: purple;
+    color: rgb(111, 73, 161);
 
 }
 
@@ -84,18 +84,18 @@ body {
   }
 
   #contacts {
-    color: purple;
+    color: rgb(111, 73, 161);
   }
 
   p {
     text-align: center;
-    color: purple;
+    color: rgb(111, 73, 161);
     /* font-family: cursive; */
   }
 
   .contactz {
     text-align: center;
-    color: purple;
+    color: rgb(111, 73, 161);
     /* font-family: cursive; */
   }
 
