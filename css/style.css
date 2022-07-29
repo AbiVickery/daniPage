@@ -83,6 +83,109 @@ body {
     border: none;
   }
 
+  .containerpics {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: wrap;
+    -webkit-flex-flow: wrap;
+    align-items: center;
+    -webkit-align-items: center;
+     width: 60%;
+     margin: 1% auto;
+   }
+
+   .photo {
+    background-color: #fff;
+    height: 250px;
+    width: 200px;
+    justify-content: center;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 5px;
+    order: 1;
+    position: relative;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  .one {
+    background: url(css\EuropePhotos\Photo1.JPG) no-repeat center;
+    background-size: cover;
+  }
+
+  .two {
+    background: url(css\EuropePhotos\Photo2.JPG);
+    background-size: cover;
+  }
+  .two:hover {
+    background: url(css\EuropePhotos\Photo3.JPG);
+    background-size: cover;
+  }
+
+  .three {
+    background: url(css\EuropePhotos\Photo4.JPG);
+    background-size: cover;
+  }
+
+  .four {
+    background: url(css\EuropePhotos\Photo5.JPG);
+    background-size: cover;
+  }
+  .four:hover {
+    background: url(css\EuropePhotos\Photo6.JPG);
+    background-size: cover;
+  }
+
+  .five {
+    background: url(css\EuropePhotos\Photo7.JPG);
+    background-size: cover;
+  }
+
+  .six {
+    background: url(css\EuropePhotos\Photo8.JPG);
+    background-size: cover;
+  }
+  .six:hover {
+    background: url(css\EuropePhotos\Photo9.JPG);
+    background-size: cover;
+  }
+
+  .seven {
+    background: url(css\EuropePhotos\Photo10.JPG);
+    background-size: cover;
+  }
+
+  .eight {
+    background: url(css\EuropePhotos\Photo11.JPG);
+    background-size: cover;
+  }
+  .eight:hover {
+    background: url(css\EuropePhotos\Photo12.JPG);
+    background-size: cover;
+  }
+
+  .nine {
+    background: url(css\EuropePhotos\Photo13.JPG);
+    background-size: cover;
+  }
+
+  .ten {
+    background: url();
+    background-size: cover;
+  }
+  .ten:hover {
+    background: url();
+    background-size: cover;
+  }
+
+  .eleven {
+    background: url();
+    background-size: cover;
+  }
+
   #contacts {
     color: rgb(111, 73, 161);
   }
@@ -109,3 +212,9 @@ body {
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.25em);
   }
+
+  #myBtn:hover {
+    background-color: rgb(187, 114, 230);
+    box-shadow: 0 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
