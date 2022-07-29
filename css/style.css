@@ -77,6 +77,12 @@ body {
     margin: 10px;
   }
 
+  hr {
+    height: 2px;
+    background-color:rgba(138,94,196,1);
+    border: none;
+  }
+
   #contacts {
     color: purple;
   }
