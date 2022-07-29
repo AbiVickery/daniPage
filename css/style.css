@@ -70,6 +70,13 @@ body {
     
   }
 
+  .headshot1 {
+    size: -25px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 14px 0px rgba(190, 123, 78, 0.781);
+    margin: 10px;
+  }
+
   #contacts {
     color: purple;
   }
